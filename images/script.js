@@ -7,9 +7,7 @@
       return e.preventDefault();
     });
     $("a[data-toggle=tooltip]").tooltip();
-    $(function() {});
-    $(".carousel").carousel;
-    ({
+    $(".carousel").carousel({
       interval: 5000,
       pause: "hover"
     });
